@@ -33,5 +33,15 @@ public class TestAhorcado {
 		assertEquals(String.valueOf(2), String.valueOf(value));
 	}
 	
+	@Test
+	public void testPlayUnCaracterRepetido(){
+		String word = "hola";
+		ahorcado = new HangMan(word);
+
+		int value = ahorcado.play(word.charAt(0));
+		int valueRep = ahorcado.play(word.charAt(0));
+		assertEquals(String.valueOf(1), String.valueOf(valueRep));
+	}
+	
 	
 }

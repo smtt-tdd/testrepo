@@ -19,7 +19,7 @@ public class HangMan {
 	int  status;
 
 	// pierde, gana, repetido, valido, invalido
-	// -1, 0, 1, ,2, 3
+	// -1, 0, 1, 2, 3
 
 	public HangMan(String word) {
 		gameWord = word;
