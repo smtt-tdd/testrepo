@@ -4,13 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>EL AHORCADO</title>
 </head>
 <body>
-<h1>Bienvenido al Ahorcado</h1>
-<form action="iniciar">
-	<input type="text" id="secretWord" name="secretWord"/>
-	<input type="submit" id="iniciar" value="Iniciar"/>
-</form>
+<h4 id="word">${word}</h4>
+
+
 </body>
 </html>

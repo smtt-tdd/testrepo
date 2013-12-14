@@ -8,9 +8,9 @@ import org.jbehave.core.reporters.StoryReporterBuilder;
 import org.jbehave.core.steps.InjectableStepsFactory;
 import org.jbehave.core.steps.InstanceStepsFactory;
 
-import story.steps.ExampleSteps;
+import story.steps.AhorcadoSteps;
 
-public class Example extends JUnitStory {
+public class Ahorcado extends JUnitStory {
 
 	@Override
 	public Configuration configuration() {
@@ -22,6 +22,6 @@ public class Example extends JUnitStory {
 
 	@Override
 	public InjectableStepsFactory stepsFactory() {
-		return new InstanceStepsFactory(configuration(), new ExampleSteps());
+		return new InstanceStepsFactory(configuration(), new AhorcadoSteps());
 	}
 }

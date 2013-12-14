@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p id="word">${word}</p>
+<h1>Bienvenido al Ahorcado</h1>
+<form action="game">
+	<input type="text" id="word" name="word"/>
+	<input type="submit" id="go" value="Iniciar"/>
+</form>
 </body>
 </html>
